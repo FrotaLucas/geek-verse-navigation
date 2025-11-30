@@ -1,1 +1,14 @@
-<p>main-layout works!</p>
+<nav class="navbar">
+  <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+    Hot Products
+  </a>
+
+  <a routerLink="/movies" routerLinkActive="active">Movies</a>
+  <a routerLink="/books" routerLinkActive="active">Books</a>
+  <a routerLink="/video-games" routerLinkActive="active">Video Games</a>
+</nav>
+
+<hr>
+
+<!-- Aqui entram as rotas filhas -->
+<router-outlet></router-outlet>
