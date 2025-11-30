@@ -10,6 +10,6 @@ import { RouterLink, RouterOutlet, RouterLinkActive } from '@angular/router';
     RouterLinkActive
   ],
   templateUrl: './main-layout.component.html',
-  styleUrls: ['./main-layout.component.scss']
+  styleUrls: ['./main-layout.component.css']
 })
 export class MainLayoutComponent { }
