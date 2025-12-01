@@ -1,19 +1,33 @@
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-}
-
-
-.featured-product {
-
+.container {
     display: flex;
     flex-direction: column;
 
 }
 
-img {
-    width: 200px;
-    height: 300px;
+@media (min-width: 641px) {
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 5rem;
+    }
+
+
+    .featured-product {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    img {
+        width: 150px;
+        height: 200px;
+    }
+
+
+
 }
