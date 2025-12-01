@@ -1,0 +1,16 @@
+.justify-text{
+    text-align: justify;
+    width: 20%;
+}
+
+@media (min-width: 641px) {
+
+    .media {
+        display: flex;
+        gap: 2rem;;
+    }
+    .justify-text{
+        width: 60%;
+    }   
+    
+}
