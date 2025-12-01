@@ -4,6 +4,11 @@
 
 }
 
+  img {
+        width: 150px;
+        height: 200px;
+    }
+
 @media (min-width: 641px) {
 
     .container {
