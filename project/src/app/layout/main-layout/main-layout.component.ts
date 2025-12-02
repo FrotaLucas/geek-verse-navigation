@@ -12,4 +12,15 @@ import { RouterLink, RouterOutlet, RouterLinkActive } from '@angular/router';
   templateUrl: './main-layout.component.html',
   styleUrls: ['./main-layout.component.css']
 })
-export class MainLayoutComponent { }
+export class MainLayoutComponent {
+
+  menuOpen = false; 
+  
+  toggleMenu(){
+    this.menuOpen = !this.menuOpen;
+  }
+
+  closeMenu(){
+    this.menuOpen = false;
+  }
+ }

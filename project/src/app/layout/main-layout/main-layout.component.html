@@ -1,4 +1,19 @@
-<nav class="navbar">
+<nav class="mobile-nav">
+
+  Start buying
+  <button class="hamburger" (click)="toggleMenu()">
+    ☰
+  </button>
+
+  <div class="mobile-menu" [class.open]="menuOpen">
+    <a routerLink="/" (click)="closeMenu()">Home Page</a>
+    <a routerLink="/movies" (click)="closeMenu()">Movies</a>
+    <a routerLink="/books" (click)="closeMenu()">Books</a>
+    <a routerLink="/video-games" (click)="closeMenu()">Video Games</a>
+  </div>
+</nav>
+
+<nav class="navbar desktop-nav">
 
   <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
     Home Page
@@ -9,6 +24,7 @@
 </nav>
 
 <hr>
+
 
 
 
